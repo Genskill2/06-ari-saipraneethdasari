@@ -36,7 +36,6 @@ string ari(string s){
        }else{
        a = (int)a;
        }                             
- 
  Grade g[14]={ {.score=1, .age="5 to 6", .gradelevel="Kindergarten"},
               {.score=2, .age="6 to 7", .gradelevel="First/Second Grade"},
               {.score=3, .age="7 to 9", .gradelevel="Third Grade"},
@@ -52,6 +51,7 @@ string ari(string s){
              {.score=13, .age="18 to 24", .gradelevel="College student"},
              {.score=14, .age="24+", .gradelevel="Professor"},
 };
+                                               
  
  for(int i = 0; i<14 ; i++){
    if (a == g[i].score){
